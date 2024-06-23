@@ -4,7 +4,7 @@ Brewery的简体中文补全汉化
 ## 翻译说明
 
 本项目是基于Brewery的补全翻译工作，旨在提供中文版本的本地化支持  
-原项目由 **DieReicheErethons** 创建，[原项目地址](https://github.com/DieReicheErethons/Brewery), 其许可证为GPL-3.0   
+原项目由 **DieReicheErethons** 创建，[原项目地址](https://github.com/DieReicheErethons/Brewery) 其许可证为GPL-3.0   
 本项目仅包含对语言文件的修改，不涉及原项目的核心代码
 
 ## 使用方法
@@ -14,10 +14,16 @@ Brewery的简体中文补全汉化
 将zh文件放在 **你的服务器\plugins\Brewery\languages\此目录下**
 
 ## 注意事项
-**此汉化文件会覆盖原文件中修改过的设置部分**  
-**如果你对原配置文件进行了修改，请在覆盖完后对其原文件的修改部分进行手动修改**
+此汉化文件会覆盖原文件中修改过的设置部分  
+如果你对原配置文件进行了修改，请在覆盖完后对其原文件的修改部分进行手动修改
 
-***或者可以使用 Jsinco 的 [BreweryX](https://github.com/Jsinco/BreweryX) 的长期更新维护分支 👍***
+**已知bug:**   
+**不能在游戏中或者在后台使用 */brew reload* 指令重载配方**
+**会导致 *config* 文件编码错误**  
+**详情请见：[#378问题](https://github.com/DieReicheErethons/Brewery/pull/378#issue-795579957)**
+
+***如果你的服务器刚开的或者对老插件数据不打算保留等情况***  
+***可以使用 Jsinco 的 [BreweryX](https://github.com/Jsinco/BreweryX) 的长期更新维护分支 👍***
 
 ## 贡献指南
 
@@ -38,4 +44,4 @@ Brewery的简体中文补全汉化
 
 ## 鸣谢
 
-感谢**DieReicheErethons**创造了原项目，以及所有为原项目做出贡献的人
+感谢 **DieReicheErethons** 创造了原项目，以及所有为原项目做出贡献的人
